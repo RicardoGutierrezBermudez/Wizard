@@ -11,9 +11,9 @@
    <children>
       <AnchorPane fx:id="pane1" layoutX="133.0" layoutY="200.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #B4B3AD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label layoutX="179.0" layoutY="77.0" text="CONTINUE" textFill="WHITE">
+            <Label layoutX="160.0" layoutY="77.0" text="CONTINUE" textFill="WHITE">
                <font>
-                  <Font name="Berlin Sans FB" size="28.0" />
+                  <Font name="Arial Black" size="28.0"/>
                </font>
             </Label>
             <Label layoutX="160.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="-- PRIMERA PARTE" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
@@ -26,9 +26,9 @@
       </AnchorPane>
       <AnchorPane fx:id="pane2" layoutX="143.0" layoutY="210.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D7C55A;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label layoutX="179.0" layoutY="77.0" text="UN POCO MAS" textFill="WHITE">
+            <Label layoutX="140.0" layoutY="77.0" text="UN POCO MAS" textFill="WHITE">
                <font>
-                  <Font name="Berlin Sans FB" size="28.0" />
+                  <Font name="Arial Black" size="28.0" />
                </font>
             </Label>
             <Label layoutX="160.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="-- SEGUNDA PARTE" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
@@ -41,9 +41,9 @@
       </AnchorPane>
       <AnchorPane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #DB9F0C;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label layoutX="179.0" layoutY="77.0" text="¡ FIN !" textFill="WHITE">
+            <Label layoutX="200.0" layoutY="77.0" text="¡ FIN !" textFill="WHITE">
                <font>
-                  <Font name="Berlin Sans FB" size="28.0" />
+                  <Font name="Arial Black" size="28.0" />
                </font>
             </Label>
             <Label layoutX="160.0" layoutY="108.0" prefHeight="68.0" prefWidth="179.0" text="-- TERCERA PARTE" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
@@ -54,19 +54,19 @@
             </Label>
          </children>
       </AnchorPane>
-      <JFXButton layoutX="382.0" layoutY="508.0" onAction="#nextAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&gt;" textFill="WHITE">
+      <JFXButton layoutX="382.0" layoutY="508.0" onAction="#next" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&gt;" textFill="WHITE">
          <font>
             <Font size="20.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="43.0" layoutY="508.0" onAction="#backAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&lt;" textFill="WHITE">
+      <JFXButton layoutX="43.0" layoutY="508.0" onAction="#back" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #00000020; -fx-background-radius: 50px;" text="&lt;" textFill="WHITE">
          <font>
             <Font size="20.0" />
          </font>
       </JFXButton>
       <Label fx:id="countLabel" alignment="CENTER" layoutX="104.0" layoutY="525.0" prefHeight="17.0" prefWidth="269.0" text="1/3" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font size="17.0" />
+            <Font size="30.0" />
          </font>
       </Label>
    </children>

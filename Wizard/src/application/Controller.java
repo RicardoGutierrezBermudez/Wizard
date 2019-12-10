@@ -39,7 +39,7 @@ public class Controller{
 	int showSlide = 0;
 
 	@FXML
-	void nextAction() {
+	void next() {
 
 		if (showSlide == 0) {
 			translateAnimation(0.5, pane2, -600);
@@ -52,13 +52,13 @@ public class Controller{
 			countLabel.setText("3/3");
 
 		} else {
-			System.out.println("No more slides");
+			System.out.println("No hay más diapositivas.");
 		}
 
 	}
 
 	@FXML
-	void backAction() {
+	void back() {
 
 		if (showSlide == 0) {
 			System.out.println("No more slides");
